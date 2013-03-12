@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+<com.brg.androidlistview.CheckableTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:textIsSelectable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="44dip"
+    android:padding="10dip"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:drawableLeft="@drawable/ic_launcher" >
+</com.brg.androidlistview.CheckableTextView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidListView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="selected_text">The fruit you selected was: </string>
+    <string name="fruit_placeholder">Selected Fruit</string>
+    <string name="title_activity_selected_item">SelectedItemActivity</string>
+
+</resources>
