@@ -7,5 +7,6 @@
     <string name="selected_text">The fruit you selected was: </string>
     <string name="fruit_placeholder">Selected Fruit</string>
     <string name="title_activity_selected_item">SelectedItemActivity</string>
+    <string name="selected_icon">Selected Icon</string>
 
 </resources>
