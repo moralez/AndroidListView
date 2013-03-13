@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="96dp"
         android:text="KJLFDLKJFD"
@@ -32,5 +31,14 @@
         android:visibility="visible"
         android:focusable="false"
         android:clickable="false" />
+
+     <RadioButton
+         android:id="@+id/radioButton1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:focusable="false"
+         android:clickable="false" />
 	
 </com.brg.androidlistview.CheckableRelativeLayout>

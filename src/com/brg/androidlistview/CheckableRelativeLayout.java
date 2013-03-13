@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Checkable;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -12,6 +13,7 @@ public class CheckableRelativeLayout extends RelativeLayout implements Checkable
 
 	public ImageView leftImage;
 	public TextView	textView;
+	public RadioButton radioButton;
 	
 	public CheckableRelativeLayout(Context context) {
 		super(context);
@@ -45,6 +47,9 @@ public class CheckableRelativeLayout extends RelativeLayout implements Checkable
         this.checked = checked;
         
         leftImage = (ImageView)findViewById(R.id.imageView1);
+        radioButton = (RadioButton)findViewById(R.id.radioButton1);
+        
+        radioButton.setChecked(checked);
         
         if (checked) {
         	leftImage.setVisibility(View.VISIBLE);
